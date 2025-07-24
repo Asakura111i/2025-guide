@@ -1,0 +1,124 @@
+body {
+        background-image: url("チェ.jpg"); 
+        background-repeat: repeat;  
+        background-size: auto;
+    background-color: #c0c0c0;
+    font-family: 'Times New Roman', serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapper {
+    width: 800px;
+    margin: 20px auto;
+    border: 2px solid black;
+    background-color: white;
+    box-shadow: 3px 3px #999;
+  }
+  
+  .header {
+    background-color: #000080;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid black;
+  }
+  .intro {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e0e0e0;
+    padding:5px 50px;
+    font-size: 14px;
+    border-bottom: 1px solid #999;
+  }
+  
+  .intro a {
+    color: blue;
+    text-decoration: underline;
+    margin: 0 5px;
+  }
+  
+  .main {
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .footer {
+    background-color: #d0d0d0;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    border-top: 1px solid #999;
+    color: #333;
+  }
+
+  .snow-area {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.snow {
+  position: absolute;
+  top: -50px;
+  width: 30px;
+  animation-name: fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.flake1 {
+  left: 10%;
+  animation-duration: 6s;
+  animation-delay: 0s;
+}
+
+.flake2 {
+  left: 30%;
+  animation-duration: 8s;
+  animation-delay: 2s;
+}
+
+.flake3 {
+  left: 60%;
+  animation-duration: 7s;
+  animation-delay: 1s;
+}
+
+.flake4 {
+  left: 80%;
+  animation-duration: 9s;
+  animation-delay: 3s;
+}
+  
+body {
+  font-family: "MS Pゴシック", sans-serif;
+  background-color: #fffbe7;
+  padding: 20px;
+}
+.comment-form {
+  margin-bottom: 20px;
+}
+.comment-form textarea {
+  width: 100%;
+  height: 60px;
+  font-size: 14px;
+}
+.comment-form button {
+  margin-top: 10px;
+  padding: 5px 15px;
+}
+.comments {
+  border-top: 1px dashed #aaa;
+  padding-top: 10px;
+}
+.comment {
+  background: #f0f0ff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
